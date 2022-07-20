@@ -2,6 +2,7 @@
   "name": "tajimise-api-docs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://tajimise.github.io/api-docs",
   "dependencies": {
     "@types/node": "^16.11.45",
     "@types/react": "^18.0.15",
@@ -17,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,7 +41,8 @@
     ]
   },
   "devDependencies": {
-    "@fr0xty/prettier-config": "^1.0.2"
+    "@fr0xty/prettier-config": "^1.0.2",
+    "gh-pages": "^4.0.0"
   },
   "prettier": "@fr0xty/prettier-config"
 }
