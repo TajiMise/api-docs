@@ -1,15 +1,13 @@
 :root {
     --jet: #353535;
     --jet-rgb: 35, 35, 35;
+    --background: #272d33;
 
-    --nyanza: #d6f6dd;
-    --lavender-blue: #dac4f7;
-    --lavender-blue-rgb: 218, 196, 247;
-    --salmon-pink: #f4989c;
-    --bisque: #ebd2b4;
-    --blizzard-blue: #acecf7;
-    --blizzard-blue-rgb: 172, 236, 247;
-    --dark-blizzard-blue: #8fbae3;
+    --light-blue: #acecf7;
+    --blue: #8fbae3;
+    --blue-rgb: 143, 186, 227;
+    --dark-blue: #1672c8;
+    --dark-blue-rgb: 22, 114, 200;
     --dark-blizzard-blue-rgb: 143, 186, 227;
 
     --danger: #ff2e3f;
@@ -37,4 +35,3 @@ button {
     -moz-user-select: none;
     -webkit-user-select: none;
 }
-

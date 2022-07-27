@@ -5,6 +5,7 @@ body {
     font-family: 'Zen Maru Gothic', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: var(--background);
 }
 
 pre {
@@ -14,4 +15,3 @@ pre {
 #root {
     -webkit-tap-highlight-color: transparent;
 }
-
